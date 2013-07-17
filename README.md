@@ -4,7 +4,7 @@ A Vagrant setup file and initial addons and themes directories for launching a v
 
 To use, please install Vagrant (http://www.vagrantup.com/) and Virtualbox (https://www.virtualbox.org/wiki/Downloads) first.
 
-Next, clone this repo and cd into the new tendenci-vagrant folder.
+Next, clone this repo with `git clone git@github.com:schipul/tendenci-vagrant.git` and cd into the new tendenci-vagrant folder.
 
 To launch the virtualbox, run `vagrant up`. The **first** run will download the box (700+ mb), so it may take a few minutes. Once download, subsequent uses of `vagrant up` can be run in under a minute.
 
