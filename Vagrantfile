@@ -11,6 +11,11 @@ Vagrant.configure("2") do |config|
     config.vm.synced_folder "themes", "/var/www/tendencisite/themes"
     config.vm.synced_folder "addons", "/var/www/tendencisite/addons"
 
+    # For Developers, sync local copy of Tendenci package
+    # Uncomment the line below and change the first path
+    # to match your local clone of tendenci for development
+    # config.vm.synced_folder "/path/to/your/clone/of/tendenci", "/var/www/tendencisite/venv/lib/python2.7/site-packages/tendenci"
+
     config.vm.provider :virtualbox do |vb|
         vb.customize ["modifyvm", :id, "--memory", 512]
     end
