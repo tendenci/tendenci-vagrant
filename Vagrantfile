@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-    config.vm.box = "tendenci-precise64"
-    config.vm.box_url = "http://tendenci-virtual-appliances.s3.amazonaws.com/tendenci-precise64-vagrant.box"
+    config.vm.box = "tendenci-vagrant-precise64"
+    config.vm.box_url = "http://tendenci-virtual-appliances.s3.amazonaws.com/tendenci-vagrant-precise64.box"
 
     config.vm.network :forwarded_port, guest: 8080, host: 8080  # nginx
 
