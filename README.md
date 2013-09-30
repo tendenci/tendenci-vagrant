@@ -14,7 +14,7 @@ You will need the following software installed to use the Tendenci vagrant virtu
 
 From the command line, clone this repo with git, or [download the project](https://github.com/tendenci/tendenci-vagrant/archive/master.zip).
 
-    git clone git@github.com:tendenci/tendenci-vagrant.git
+    git clone https://github.com/tendenci/tendenci-vagrant.git
 
 Next, from the command line cd to the project and launch the virtualbox with vagrant. The **first** run will download the box (700+ mb), so it may take a few minutes. Once downloaded, subsequent uses of `vagrant up` can be run in under a minute.
 
